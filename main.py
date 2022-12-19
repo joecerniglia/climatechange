@@ -94,16 +94,9 @@ def update_plot(attrname, old, new):
 
 
 distribution = 'Smoothed'
-df = pd.read_csv(join(dirname(__file__), 'data/GlobalLandTemperatures.csv'))
-dfg = df.groupby(by="Country")
-print('grouped dataset:',dfg)
+df = pd.read_csv(join(dirname(__file__), 'data/GlobalLandTemperaturesByState.csv'))
 
-
-#df = df.head(10000)
 states=dict(zip(df.State, df.State + ', ' + df.Country))
-#print(states)
-
-
 
 # Getting first key in dictionary to seed the first state selected on startup
 state = list(states.keys())[0]
@@ -124,4 +117,4 @@ distribution_select.on_change('value', update_plot)
 controls = column(state_select, distribution_select)
 
 curdoc().add_root(row(plot, controls))
-curdoc().title = "Weather"
+curdoc().title = "Climate Change History"
