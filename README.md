@@ -19,7 +19,7 @@ The orange line is the average monthly reading for the first 50 years of record-
 
 When looking at the thick blue band in the middle of each graph, bear in mind that this is a cluster of values tending toward the average </br>
 monthly climate over a given year. High uncertainty and/or extreme weather events on the first of each month can on rare occasions make </br>
-50-year average appear distorted, when in fact it is merely reflecting values outside the blue band.
+the 50-year average appear distorted, when in fact it is merely reflecting values outside the blue band.
 
 The smoothing algorithm used for smoothed distributions is a Savitsky-Golay filter, pioneered by chemist Abraham Savitsky (1919-1989) and mathematician
 Marcel J.E. Golay (1902-1989).
