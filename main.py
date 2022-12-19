@@ -94,7 +94,7 @@ def update_plot(attrname, old, new):
 
 
 distribution = 'Smoothed'
-df = pd.read_csv(join(dirname(__file__), 'data/GlobalLandTemperaturesByState.csv'))
+df = pd.read_csv(join(dirname(__file__), 'data/GlobalLandTemperatures.csv'))
 
 states=dict(zip(df.State, df.State + ', ' + df.Country))
 
