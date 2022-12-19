@@ -1,6 +1,6 @@
 ## Climate Change on Earth During the Last 150 - 270 Years
 
-Climate change works slowly but over centuries it can be quite visible. This website I created demonstrates that no place on Earth can </br>
+Climate change works slowly but over centuries it can be quite visible. This website I created demonstrates that no place on Earth can
 remain unaffected, although certain cities in Brazil and island regions such as Hawaii appear to have been particularly vulnerable.
 
 The website that this code actualizes may be found here:
