@@ -1,12 +1,15 @@
 ## Climate Change on Earth During the Last 150 - 270 Years
 
-Climate change works slowly but over centuries it can be quite visible. This graph demonstrates that no place on Earth can remain </br>
-unaffected, although certain cities in Brazil and island regions such as Hawaii appear to have been particularly vulnerable.
+Climate change works slowly but over centuries it can be quite visible. This website I created demonstrates that no place on Earth can </br>
+remain unaffected, although certain cities in Brazil and island regions such as Hawaii appear to have been particularly vulnerable.
 
-The dataset is from Kaggle: https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByState.csv
+The website that this code actualizes may be found here:
+https://climatehistorygraph.herokuapp.com/main
 
-The discrete distribution shows how uncertainty in weather measurements has decreased over the years. Longer vertical lines in the earlier </br>
-years denote occasionally long visit times to the weather station and the use of mercury therometers. In the 1940s, weather stations moved to airports, 
+The dataset the website uses is from Kaggle: https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByState.csv
+
+The discrete distribution view shows how uncertainty in weather measurements has decreased over the years. Longer vertical lines in the </br>
+earlier years denote occasionally long visit times to the weather station and the use of mercury therometers. In the 1940s, weather stations moved to airports, 
 which also increases uncertainty for purposes of comparison.
 
 The dataset has one daily average observation for the first of each month, so certain extreme weather events may be missing. The intent of the graph
@@ -17,3 +20,12 @@ The orange line is the average monthly reading for the first 50 years of record-
 When looking at the thick blue band in the middle of each graph, bear in mind that this is a cluster of values tending toward the average </br>
 monthly climate over a given year. High uncertainty and/or extreme weather events on the first of each month can on rare occasions make </br>
 50-year average appear distorted, when in fact it is merely reflecting values outside the blue band.
+
+The smoothing algorithm used for smoothed distributions is a Savitsky-Golay filter, pioneered by chemist Abraham Savitsky (1919-1989) and mathematician
+Marcel J.E. Golay (1902-1989).
+
+Special thanks must be accorded to: 
+
+Bryan Van de Ven, co-inventor of the Python Bokeh library that makes these graphs possible, and whose "Weather Examples" source code provided a starting point for this graph; and
+
+Jo Lorden, whose Medium article, provided useful instruction on the special requirements for deploying this website to Heroku. https://medium.com/@jodorning/how-to-deploy-a-bokeh-app-on-heroku-486d7db28299. 
