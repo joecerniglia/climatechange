@@ -6,11 +6,10 @@ remain unaffected, although certain cities in Brazil and island regions such as 
 The website that this code actualizes may be found here:
 https://climatehistorygraph.herokuapp.com/main
 
-The dataset the website uses is from Kaggle: https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByState.csv
+The dataset the website uses is from Kaggle: https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByState.csv by way of Berkeley Earth, https://berkeleyearth.org/data/
 
 The discrete distribution view shows how uncertainty in weather measurements has decreased over the years. Longer vertical lines in the </br>
-earlier years denote occasionally long visit times to the weather station and the use of mercury therometers. In the 1940s, weather stations moved to airports, 
-which also increases uncertainty for purposes of comparison.
+earlier years denote occasionally long visit times to the weather station and the use of mercury therometers. In the 1940s, weather stations moved to airports, which also increases uncertainty for purposes of comparison.
 
 The dataset has one daily average observation for the first of each month, so certain extreme weather events may be missing. The intent of the graph
 is to show long-term trends, not short-term events.
