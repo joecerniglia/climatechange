@@ -63,9 +63,9 @@ def make_plot(source, title):
     #plot.quad(top='uncertainty_top', bottom='AverageTemperature', left='left', right='right',
     #          color=Spectral3[0], source=source, legend_label="Average Top Estimate")
     plot.quad(top='AverageTemperature', bottom='uncertainty_bottom', left='left', right='right',
-              color=Sunset4[0], source=source, legend_label="Average Temperature")
+              color=Sunset4[0], source=source, legend_label="Monthly temperature observations, one day's average reading each month")
     #plot.quad(top='avg_est_top', bottom='avg_est_bottom', left='left', right='right',
-    #          color=Blues4[0], source=source, legend_label="AverageTemperature")
+    #          color=Blues4[0], source=source, legend_label="Monthly temperature observations, one day's average reading each month")
     plot.quad(top='uncertainty_top', bottom='AverageTemperature', left='left', right='right',
               color=HighContrast3[0], source=source, legend_label="Average Temperature")
     plot.quad(top='AverageStart', bottom='AverageStartoffset', left='left', right='right',
