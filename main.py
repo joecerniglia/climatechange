@@ -101,7 +101,7 @@ print(state)
 source = get_dataset(df, state, distribution)
 #print('TYPE OF SOURCE IS:',type(source))
 
-state_select = Select(value=state, title='State', options=sorted(states.keys()))
+state_select = Select(value=state, title='State/City', options=sorted(states.keys()))
 
 distribution_select = Select(value=distribution, title='Distribution', options=['Discrete', 'Smoothed'])
 
