@@ -13,7 +13,7 @@ The discrete distribution view shows how uncertainty in weather measurements has
 The dataset has one daily average observation for the first of each month, so certain extreme weather events may be missing. The intent of the graph
 is to show long-term trends, not short-term events.
 
-The orange line is the average monthly reading for the first 50 years of record-keeping for the given city. 
+The orange line is the average monthly reading for the first 50 years of record-keeping for the given city or state. 
 
 When looking at the thick blue band in the middle of each graph, bear in mind that this is a cluster of values tending toward the average </br>
 monthly climate over a given year. High uncertainty and/or extreme weather events on the first of each month can on rare occasions make </br>
