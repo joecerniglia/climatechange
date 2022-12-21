@@ -43,7 +43,8 @@ def get_dataset(src, name, distribution):
     df['left'] = df.dt - datetime.timedelta(days=0.5)
     df['right'] = df.dt + datetime.timedelta(days=0.5)
     # Multiplying by 1.8 to reflect magnitude of 1 degree celsius compared with Fahrenheit
-    # Dividing by 2 to reflect fact that range of error = uncertainty/2
+    # Dividing by 2 to reflect fact that top and bottom range of error cause an even split in the uncertainty; 
+    # Therefore each (top and bottom) are equal to uncertainty/2
     df['uncertainty_top'] = df['AverageTemperature']+(df['AverageTemperatureUncertainty']*1.8)/2
     df['uncertainty_bottom'] = df['AverageTemperature']-(df['AverageTemperatureUncertainty']*1.8)/2
     df['avg_est_top']=df['AverageTemperature']+0.1
