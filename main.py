@@ -42,7 +42,7 @@ def get_dataset(src, name, distribution):
     # timedelta here instead of pd.DateOffset to avoid pandas bug < 0.18 (Pandas issue #11925)
     df['left'] = df.dt - datetime.timedelta(days=0.5)
     df['right'] = df.dt + datetime.timedelta(days=0.5)
-    # Multiplying by 1.8 to reflect magnitude of 1 degree change in Celsius compared with 1 degree change in Fahrenheit
+    # Multiplying by 1.8 to reflect magnitude of 1 degree change in Celsius translated to 1 degree change in Fahrenheit
     # Dividing by 2 to reflect fact that top and bottom range of error cause an even split in the uncertainty; 
     # Therefore each (top and bottom) are equal to uncertainty/2
     df['uncertainty_top'] = df['AverageTemperature']+(df['AverageTemperatureUncertainty']*1.8)/2
