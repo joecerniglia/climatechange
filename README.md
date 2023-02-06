@@ -24,4 +24,4 @@ Special thanks must be accorded to:
 
 Bryan Van de Ven, co-inventor of the Python Bokeh library that makes these graphs possible, and whose "Weather Examples" source code, https://github.com/bokeh/bokeh/tree/main/examples/server/app/weather, provided a starting point for this graph; and
 
-Jo Lorden, whose Medium article, provided useful instruction on the special requirements for deploying this website to Heroku. https://medium.com/@jodorning/how-to-deploy-a-bokeh-app-on-heroku-486d7db28299. 
+Jo Lorden, whose Medium article provided useful instruction on the special requirements for deploying this website to Heroku. https://medium.com/@jodorning/how-to-deploy-a-bokeh-app-on-heroku-486d7db28299. 
